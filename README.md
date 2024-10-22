@@ -1,5 +1,5 @@
 # MAMBA-explain
-A MAMBA explainability final project done in the deep learning and advanced topics course @ school of Electrical 
+A Mamba explainability final project done in the deep learning and advanced topics course @ school of Electrical 
 Engineering, TAU.  
 
 ## Installing Requirements
@@ -16,7 +16,7 @@ All the experiments were performed within jupyter notebooks, with the main funct
 ```mamba2mini.py``` module. The experiments were carried out using a single Nvidia RTX A6000 GPU. All experiments 
 attempt to use a GPU.
 
-### Mamba2 Model
+### Mamba-2 Model
 
 Throughout our experiments, the model used is the ```mamba2-1.3b``` model 
 ([Dao et al. 24'](https://arxiv.org/abs/2405.21060)) whose weights are imported from 
@@ -27,7 +27,7 @@ Throughout our experiments, the model used is the ```mamba2-1.3b``` model
 We adapt the ```mamba2mini.py``` module found in [this repo](https://github.com/tommyip/mamba2-minimal). The main 
 modification made was to allow the model to reconstruct the underlying linear attention layer and compute the predictions
 according to it, instead of the regular inference procedure. For further details on the attention structural property of 
-Mamba2, see [Dao et al. 24'](https://arxiv.org/abs/2405.21060).
+Mamba-2, see [Dao et al. 24'](https://arxiv.org/abs/2405.21060).
 
 ### Data Organization
 
