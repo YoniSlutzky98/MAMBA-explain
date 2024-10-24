@@ -49,7 +49,7 @@ outputs are identical in ```original_attention_comparison.ipynb```.
 ### Experiment 1 - Info Flow Analysis
 
 The experiment uses the attention model to predict the next token for correct prompts of the core model, while blocking 
-attention to the last token over continuous windows of layers from either the second to last token, the ```subject``` 
+attention to the last token over continuous windows of layers from either the last token, the ```subject``` 
 tokens or the ```relation``` tokens. Both the prediction probability of the true token and the overall accuracy are 
 tracked. To run the experiments, run all cells of ```info_flow_experiments.ipynb``` in order. To plot the results 
 obtained, run all cells of ```info_flow_results.ipynb``` in order. This would create the plots seen in the document 
